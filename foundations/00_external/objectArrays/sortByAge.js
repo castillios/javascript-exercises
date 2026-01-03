@@ -1,7 +1,5 @@
 function sortByAge(users) {
-    for (user in users) {
-        
-    }
+    return users.sort((a, b) => (a.age - b.age));
 }
 
 let john = { name: "John", age: 25 };
